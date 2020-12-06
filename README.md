@@ -24,10 +24,10 @@ Open PowerShell in the Windows start menu and use this to compile the Java. This
 
 ## Run
 In Spyder run:
-  : runfile('C:/Users/Alex/Desktop/load_cwa/accProcess.py', wdir='C:/Users/Alex/Desktop/load_cwa', args='./example.cwa') 
+  > runfile('C:/Users/Alex/Desktop/load_cwa/accProcess.py', wdir='C:/Users/Alex/Desktop/load_cwa', args='./example.cwa') 
 
 This will produce a number of temporary files, including a numpy file example.npy. (If the input file is example.cwa.) You can load this numpy file into Python with the command:
-  : data, time = import_npy("example.npy")
+  > data, time = import_npy("example.npy")
 
 This will leave arrays of data and time in your workspace for you to work with. I image most people re-saving these arrays in an easier to use format than .cwa so this code becomes a 'one time conversion' only. Unless working with a very large number of files this is probably more effective than loading the .cwa file every time. 
 
@@ -52,3 +52,6 @@ For Windows this is now:
 (Assuming the input file is called example.cwa. The code builds up this line automatically.)
 
 Some of the flags for garbage collection have been removed. This is fine for a single user Windows environment. If running on a shared Windows server or HPC you might need to look into re-enabling these or it will swamp the system with multiple treads and whoever else is on the server may not be happy!
+
+## How to cite
+If you use this code please do cite it. To do this please use DOI: TBC.
