@@ -20,6 +20,7 @@ Install the Java Development Kit (JDK) from https://www.oracle.com/java/technolo
 
 Open PowerShell in the Windows start menu and use this to compile the Java. This is done in the base folder (C:\Users\Alex\load_cwa here) not the java folder.
   > cd C:\Users\Alex\load_cwa
+  
   > javac.exe -cp "./java;./java/JTransforms-3.1-with-dependencies.jar" ./java/*.java
 
 ## Run
