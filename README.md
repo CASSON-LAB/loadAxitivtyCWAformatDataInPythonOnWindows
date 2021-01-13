@@ -56,4 +56,4 @@ For Windows this is now:
 Some of the flags for garbage collection have been removed. This is fine for a single user Windows environment. If running on a shared Windows server or HPC you might need to look into re-enabling these or it will swamp the system with multiple treads and whoever else is on the server may not be happy!
 
 ## How to cite
-If you use this code please do cite it. To do this please use DOI: TBC.
+If you use this code please do cite it. To do this please use DOI: 10.48420/13567541.
