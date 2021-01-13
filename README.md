@@ -16,7 +16,7 @@ It likely runs with other versions, but this hasn't been checked.
 ## Install
 The main code is in Python and the intention is to provide a Python interface to .cwa files on Windows. However the code uses a Java back-end to actually load and process the data. The Java used needs compiling for your OS and processor before the Python can be run. 
 
-Sync the git folder to your computer. For illustration I assume this is put in C:\Users\Alex\load_cwa
+Sync the git folder to your computer. For illustration I assume this is put in C:\Users\Alex\Deskop\load_cwa
 Install the Java Development Kit (JDK) from https://www.oracle.com/java/technologies/javase-downloads.html. For development I used the "Windows X64 installer" at https://www.oracle.com/java/technologies/javase-jdk15-downloads.html.
 
 Open PowerShell in the Windows start menu and use this to compile the Java. This is done in the base folder (C:\Users\Alex\Desktop\load_cwa here) not the java folder.
