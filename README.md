@@ -10,6 +10,7 @@ This code was made with:
 - Java 15.0.1
 - Windows 10 Enterprise 20H2
 - Spyder 4.1.5
+
 It likely runs with other versions, but this hasn't been checked. 
 
 ## Install
